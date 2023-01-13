@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+
+    <!-- style korlam css er  -->
+<style>
+
+    /* box er sokol style gula ekhane box er moddhe korsi */
+    .box{
+        height: 200px;
+        width: 200px;
+        border: 2px solid cadetblue;
+        background-color:royalblue;
+        border-radius: 20px;
+
+
+        /* transition korar niyom */
+        /* transition : 2 vabe kora jay jmn {ease in-out}{linear} */
+
+        /* width k linear kore animat krlm */
+        transition: 2s linear;
+
+         
+        
+        }
+
+         /* box ba j kono jinis k hover korle evabe korte hobe   */
+        
+        .box:hover{
+            width: 400px;
+            height: 400px;
+
+            /* transform korlam pura 145 degre ghuira jabe */
+
+        transform: rotate(145deg);}
+            
+</style>
+</head>
+<body>
+   <div class="box">
+    <h1>Transition</h1>
+   </div>
+   <div class="box">
+    <h1>Transition</h1>
+   </div>
+   <div class="box">
+    <h1>Transition</h1>
+   </div>
+</body>
+</html>
